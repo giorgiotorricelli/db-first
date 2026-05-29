@@ -1,3 +1,7 @@
 # esercizio db-first
 
-## schema tabella concessionario 
+## schema tabella `vehicles` 
+
+| Nome Colonna | Tipo | Attributi | Indici |
+|---|---|---|---|
+| id | int | auto | primary index |
