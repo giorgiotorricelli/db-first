@@ -22,5 +22,13 @@
 | `electric_range` | `DECIMAL(3,1) UNSIGNED` | `NULL` |  |
 | `in_stock` | `TINYINT UNSIGNED` | `DEFAULT 0, NOT NULL` |  |
 | `colour` | `MEDIUMINT UNSIGNED` | `NOT NULL` |  |
+| `for_new_drivers` | `BOOLEAN` | `DEFAULT FALSE, NOT NULL` |  |
+| `is_manual` | `BOOLEAN` | `DEFAULT FALSE, NOT NULL` |  |
+| `for_new_drivers` | `BOOLEAN` | `DEFAULT FALSE, NOT NULL` |  |
+| `type_of_fuel` | `VARCHAR(10)` | `NOT NULL` |  |
+| `for_rent` | `BOOLEAN` | `DEFAULT FALSE, NOT NULL` |  |
+| `rental_per_day` | `SMALLINT, UNSIGNED` | `NULL` | `IX` |
+| `rental_per_week` | `SMALLINT, UNSIGNED` | `NULL` | `IX` |
+| `rental_per_month` | `SMALLINT, UNSIGNED` | `NULL` | `IX` |
 
 
